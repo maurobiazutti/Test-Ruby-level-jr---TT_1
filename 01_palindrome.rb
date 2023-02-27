@@ -6,5 +6,4 @@ class VerificaPalindromo
   end
 end
 
-
-palindromo
+puts palindromo
