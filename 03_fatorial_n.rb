@@ -10,6 +10,21 @@
 # ● n = 0 deve retornar 1
 # ● n > 0 deve retornar n!
 
+def fatorial(n)
+  if n < 0
+    puts "nil"
+  elsif n == 0
+    puts 1
+  else
+    aux = 1
+    (1..n).each { |i|
+      aux = aux * i
+    }
+    puts "O Fatoria de #{n} é = #{aux}"
+  end
+end
+fatorial(5)
+
 #Recursiva
 # def fatorial(n)
 #   if n < 0
@@ -22,15 +37,3 @@
 #     n * fatorial(n - 1)
 #   end
 # end
-#
-def fatorial(n)
-  if n < 0
-    puts "nil"
-  elsif n == 0
-    return 1
-  else
-    puts "#{n} *"
-    n * (n - 1)
-  end
-end
-puts fatorial(2)
