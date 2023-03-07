@@ -10,4 +10,4 @@
 #   s.size == 0
 # end
 
-#A função Java vai verificar se o tamanho da  String é igual a 0, e a função Ruby vai
+#A principal diferença é a sintax do Java q é bem bem verbosa que a do ruby.
