@@ -10,4 +10,4 @@
 #   s.size == 0
 # end
 
-#A principal diferença é a sintax do Java q é bem bem verbosa que a do ruby.
+#A principal diferença é a sintax do Java q é bem mais verbosa que a do ruby.
