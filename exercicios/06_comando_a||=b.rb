@@ -1,7 +1,7 @@
 #6) Descreva o que faz o seguinte comando e por que ele é amplamente utilizado: a ||= b
 
 
-# Significa: Se a for indefinido, nil ou false, atribua b a a.
+# Significa: Se "a" for indefinido, nil ou false, atribua "b" a "a".
 # Caso contrário, mantenha a intacto.
 #
 # Pode usá-lo no Rails para armazenar variáveis de instância em modelos.
