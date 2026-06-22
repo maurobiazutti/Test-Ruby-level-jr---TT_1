@@ -1,13 +1,17 @@
-#7) Qual a principal diferença entre estes dois métodos?
+=begin
+7) Qual a principal diferença entre estes dois métodos?
 
-#Java
-# puplic booleal isEmpty(String s){
-# return s.length() == 0;
-# }
-#
-# Ruby
-# def empty?(s)
-#   s.size == 0
-# end
+// JAVA
+public boolean inEmpty(String s) {
+  return s.length() == 0;
+}
 
-#A principal diferença é a sintax do Java q é bem mais verbosa que a do ruby.
+# RUBY
+def empty?(s)
+  return s.size == 0 
+end
+
+A lógica dos dois métodos é equivalente.
+A maior diferença conceitual é que Ruby trata tudo como objetos e usa tipagem dinâmica, 
+enquanto Java exige declaração explícita dos tipos. 
+=end
