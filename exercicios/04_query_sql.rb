@@ -60,7 +60,7 @@ E.cpf AS CPF,
 T.name AS equipe, 
 J.name AS cargo
 FROM employees E
-INNER JOIN teams T on E.team_id = T.id
+INNER JOIN teams T ON E.team_id = T.id
 INNER JOIN job_titles J ON E.job_title_id = J.id
 ORDER BY E.cpf;
 
