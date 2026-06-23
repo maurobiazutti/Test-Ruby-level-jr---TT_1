@@ -5,7 +5,7 @@ Technical test TT_1 - DesenvolvendoMe
 
 **1** - Faça uma função que receba uma string e retorne verdadeiro caso ela seja palíndromo, do contrário ela deve retornar falso. (palíndromos são palavras ou frases que podem ser lidas da esquerda para a direita ou da direita para a esquerda)
 
-[Solução]( https://github.com/maurobiazutti/Test-Ruby-level-jr---TT_1/blob/main/exercicios/01_palindrome.rb ) 
+[Solução]( https://github.com/maurobiazutti/Test-Ruby-level-jr---TT_1/blob/main/exercicios/01_palindrome.rb )
 
 
 **2** - Faça uma função que receba uma string contendo um CPF e verifique se ele está formatado de acordo com a máscara 999.999.999-99. A função deve usar regex para fazer a validação da máscara e deve retornar verdadeiro ou falso.
@@ -26,28 +26,28 @@ Regras
 
 Tabela: employees
 
-| id | first_name | last_name | cpf | team_id | job_title_id |
-|---|---|---|---|---|--|
-| 1 | Pedro | Alves | 665.415.876.80 | 2 | 3 |
-| 2 | Tiago | Nogueira | 032.336.130-75 | 1 | 1 |
-| 3 | João | Neves | 461.636.517.23 | 1 | 2 |
+| id  | first_name | last_name | cpf            | team_id | job_title_id |
+| --- | ---------- | --------- | -------------- | ------- | ------------ |
+| 1   | Pedro      | Alves     | 665.415.876.80 | 2       | 3            |
+| 2   | Tiago      | Nogueira  | 032.336.130-75 | 1       | 1            |
+| 3   | João       | Neves     | 461.636.517.23 | 1       | 2            |
 
 
 Tabela: teams
 
-| id | name |
-|---|---|
-| 1 | TI |
-| 2 | Suporte |
-| 3 | Financeiro |
+| id  | name       |
+| --- | ---------- |
+| 1   | TI         |
+| 2   | Suporte    |
+| 3   | Financeiro |
 
 Tabela: job_titles
 
-| id | name |
-|---|---|
-| 1 | Desenvolvedor back-endimpr |
-| 2 | Desenvolvedor front-end |
-| 3 | Encantador de clientes |
+| id  | name                       |
+| --- | -------------------------- |
+| 1   | Desenvolvedor back-endimpr |
+| 2   | Desenvolvedor front-end    |
+| 3   | Encantador de clientes     |
 
 [Solução]( https://github.com/maurobiazutti/Test-Ruby-level-jr---TT_1/blob/main/04_query_sql.rb )
 
